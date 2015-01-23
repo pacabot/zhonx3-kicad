@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 26/08/2014 23:28:17
+
+BeginCmp
+TimeStamp = /53FC7226;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC7225;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC721E;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC7238;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC723B;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC721B;
+Reference = JT1;
+ValeurCmp = JTAG_ZHONX;
+IdModule  = JTAG_ZHONX_III;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC7689;
+Reference = P1;
+ValeurCmp = CONN_BASE;
+IdModule  = CONN_BASE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC721C;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC723A;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC7231;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC87E9;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC7218;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Switch_MCTA4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC7220;
+Reference = U1;
+ValeurCmp = MAX1607;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FCFB2F;
+Reference = U2;
+ValeurCmp = POLOLU_U3V50;
+IdModule  = Pololu_Step-up;
+EndCmp
+
+EndListe
