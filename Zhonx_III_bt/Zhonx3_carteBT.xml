@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pacabot/Documents/zhonx3_bt/Zhonx3_carteBT.sch</source>
+    <date>mer. 10 déc. 2014 10:41:01 CET</date>
+    <tool>Eeschema (2014-10-23 BZR 4804)-product</tool>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>SPBT2632C2A</value>
+      <footprint>zhonx3_bt:SPBT2632C2A</footprint>
+      <libsource lib="zhonx3_bt" part="SPBT2632C2A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F4932</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>360</value>
+      <footprint>SMD_Packages:SMD-0603_r</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F591E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>360</value>
+      <footprint>SMD_Packages:SMD-0603_r</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F59C7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>orange_Connecte</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F5B12</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>rouge_RadioMarche</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F5B95</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>SMD_Packages:SMD-0603_c</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F5E24</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>SMD_Packages:SMD-0603_r</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F5EBA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>SMD_Packages:SMD-0603_c</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F632A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F655D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LP2992</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <libsource lib="zhonx3_bt" part="LP2992"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F61F5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>SMD_Packages:SMD-0603_c</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F62F0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>SMD_Packages:SMD-0603_c</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F68E9</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>SMD_Packages:SMD-0603_c</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F8220</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>SMD_Packages:SMD-0603_c</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547F8278</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zhonx3_bt" part="LP2992">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2992</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="ON/~OFF" type="input"/>
+        <pin num="4" name="BYPASS" type="input"/>
+        <pin num="5" name="Vout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="zhonx3_bt" part="SPBT2632C2A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPBT2632C2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO1" type="BiDi"/>
+        <pin num="2" name="GPIO2" type="BiDi"/>
+        <pin num="3" name="GPIO3" type="BiDi"/>
+        <pin num="4" name="GPIO4" type="BiDi"/>
+        <pin num="5" name="GPIO5" type="BiDi"/>
+        <pin num="6" name="GPIO6" type="BiDi"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="BOOT" type="input"/>
+        <pin num="10" name="RESET" type="input"/>
+        <pin num="11" name="CTS" type="input"/>
+        <pin num="12" name="RTS" type="output"/>
+        <pin num="13" name="RXD" type="input"/>
+        <pin num="14" name="TXD" type="output"/>
+        <pin num="15" name="LPO" type="input"/>
+        <pin num="16" name="GPIO7" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="zhonx3_bt">
+      <uri>/home/pacabot/Documents/zhonx3_bt/kicad_lib/zhonx3_bt.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad2)">
+      <node ref="U2" pin="10"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="P1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C4-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="5" name="+2.5V">
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="7" name="UART_RX">
+      <node ref="U2" pin="14"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="18" name="UART_TX">
+      <node ref="U2" pin="13"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+  </nets>
+</export>

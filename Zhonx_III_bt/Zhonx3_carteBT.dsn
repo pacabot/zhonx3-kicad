@@ -1,0 +1,242 @@
+(pcb /home/pacabot/Documents/zhonx3_bt/Zhonx3_carteBT.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2014-10-23 BZR 4804)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  130746 -89408  130746 -100012  137414 -100012  137922 -100520
+            137922 -106870  139128 -108077  150558 -108077  151702 -106934
+            151702 -87947.5  150558 -86804.5  139128 -86804.5  137858 -88074.5
+            137858 -89408  130746 -89408)
+    )
+    (keepout "" (polygon F.Cu 0  131318 -101473  129096 -101473  129096 -88392  131318 -88392))
+    (keepout "" (polygon In1.Cu 0  131318 -103886  128143 -103886  128143 -85979  131318 -85979))
+    (keepout "" (polygon F.Cu 0  153226 -102743  148018 -102743  148018 -91821  153226 -91821))
+    (keepout "" (polygon In1.Cu 0  153226 -102743  148018 -102743  148018 -91821  153226 -91821))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 254)
+      (clearance 150.1)
+      (clearance 150.1 (type default_smd))
+      (clearance 37.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component "LEDs:LED-0603"
+      (place D1 140716 -106934 front 0 (PN orange_Connecte))
+      (place D2 145288 -106934 front 0 (PN rouge_RadioMarche))
+    )
+    (component Socket_Strips:Socket_Strip_Straight_1x04
+      (place P1 132334 -94742 front 270 (PN CONN_01X04))
+    )
+    (component "SMD_Packages:SOT-23-5"
+      (place U3 137224 -95250 front 0 (PN LP2992))
+    )
+    (component "SMD_Packages:SMD-0402_c"
+      (place C1 146558 -88392 front 0 (PN 0.1uF))
+      (place C2 144526 -89154 front 0 (PN 0.1uF))
+      (place C3 137604 -97917 front 0 (PN 4.7uF))
+      (place C4 138240 -92202 front 270 (PN 10nF))
+      (place C5 136334 -92202 front 270 (PN 4.7uF))
+      (place C6 134810 -92202 front 270 (PN 10nF))
+      (place R1 140335 -105537 front 180 (PN 360))
+      (place R2 144907 -105537 front 180 (PN 360))
+      (place R3 144526 -87884 front 180 (PN 10K))
+    )
+    (component zhonx3_bt:SPBT2632C2A
+      (place U2 140855 -103660 front 0 (PN SPBT2632C2A))
+    )
+  )
+  (library
+    (image "LEDs:LED-0603"
+      (outline (path signal 150  449.58 449.58  449.58 -449.58))
+      (outline (path signal 150  449.58 -449.58  848.36 -449.58))
+      (outline (path signal 150  848.36 449.58  848.36 -449.58))
+      (outline (path signal 150  449.58 449.58  848.36 449.58))
+      (outline (path signal 150  -848.36 449.58  -848.36 -449.58))
+      (outline (path signal 150  -848.36 -449.58  -449.58 -449.58))
+      (outline (path signal 150  -449.58 449.58  -449.58 -449.58))
+      (outline (path signal 150  -848.36 449.58  -449.58 449.58))
+      (outline (path signal 150  0 449.58  0 299.72))
+      (outline (path signal 150  0 299.72  299.72 299.72))
+      (outline (path signal 150  299.72 449.58  299.72 299.72))
+      (outline (path signal 150  0 449.58  299.72 449.58))
+      (outline (path signal 150  0 -299.72  0 -449.58))
+      (outline (path signal 150  0 -449.58  299.72 -449.58))
+      (outline (path signal 150  299.72 -299.72  299.72 -449.58))
+      (outline (path signal 150  0 -299.72  299.72 -299.72))
+      (outline (path signal 150  0 149.86  0 -149.86))
+      (outline (path signal 150  0 -149.86  299.72 -149.86))
+      (outline (path signal 150  299.72 149.86  299.72 -149.86))
+      (outline (path signal 150  0 149.86  299.72 149.86))
+      (outline (path signal 150  449.58 398.78  -449.58 398.78))
+      (outline (path signal 150  449.58 -398.78  -449.58 -398.78))
+      (pin Rect[T]Pad_797.56x797.56_um 1 -749.3 0)
+      (pin Rect[T]Pad_797.56x797.56_um 2 749.3 0)
+    )
+    (image Socket_Strips:Socket_Strip_Straight_1x04
+      (outline (path signal 150  2540 -1270  -5080 -1270))
+      (outline (path signal 150  2540 1270  -5080 1270))
+      (outline (path signal 150  5080 1270  2540 1270))
+      (outline (path signal 150  -5080 -1270  -5080 1270))
+      (outline (path signal 150  2540 1270  2540 -1270))
+      (outline (path signal 150  5080 1270  5080 -1270))
+      (outline (path signal 150  5080 -1270  2540 -1270))
+      (pin Oval[A]Pad_1727.2x2032_um (rotate 180) 1 3810 0)
+      (pin Oval[A]Pad_1727.2x2032_um (rotate 180) 2 1270 0)
+      (pin Oval[A]Pad_1727.2x2032_um (rotate 180) 3 -1270 0)
+      (pin Oval[A]Pad_1727.2x2032_um (rotate 180) 4 -3810 0)
+    )
+    (image "SMD_Packages:SOT-23-5"
+      (outline (path signal 150  1524 889  1524 -889))
+      (outline (path signal 150  1524 -889  -1524 -889))
+      (outline (path signal 150  -1524 -889  -1524 889))
+      (outline (path signal 150  -1524 889  1524 889))
+      (pin Rect[T]Pad_508x762_um 1 -952.5 -1270)
+      (pin Rect[T]Pad_508x762_um 3 952.5 -1270)
+      (pin Rect[T]Pad_508x762_um 5 -952.5 1270)
+      (pin Rect[T]Pad_508x762_um 2 0 -1270)
+      (pin Rect[T]Pad_508x762_um 4 952.5 1270)
+    )
+    (image "SMD_Packages:SMD-0402_c"
+      (outline (path signal 150  -254 381  -762 381))
+      (outline (path signal 150  -762 381  -762 -381))
+      (outline (path signal 150  -762 -381  -254 -381))
+      (outline (path signal 150  254 381  762 381))
+      (outline (path signal 150  762 381  762 -381))
+      (outline (path signal 150  762 -381  254 -381))
+      (pin Rect[T]Pad_398.78x599.44_um 1 -449.58 0)
+      (pin Rect[T]Pad_398.78x599.44_um 2 449.58 0)
+    )
+    (image zhonx3_bt:SPBT2632C2A
+      (outline (path signal 127  -1300 13120  -1300 -380))
+      (outline (path signal 127  10300 13120  -1300 13120))
+      (outline (path signal 127  10300 -380  10300 13120))
+      (outline (path signal 127  -1300 -380  10300 -380))
+      (pin Rect[T]Pad_1200x1500_um 1 0 0)
+      (pin Rect[T]Pad_1200x1500_um 2 1500 0)
+      (pin Rect[T]Pad_1200x1500_um 3 3000 0)
+      (pin Rect[T]Pad_1200x1500_um 4 4500 0)
+      (pin Rect[T]Pad_1200x1500_um 5 6000 0)
+      (pin Rect[T]Pad_1200x1500_um 6 7500 0)
+      (pin Rect[T]Pad_1200x1500_um 7 9000 0)
+      (pin Rect[T]Pad_1200x1500_um 8 9000 12740)
+      (pin Rect[T]Pad_1200x1500_um 9 7500 12740)
+      (pin Rect[T]Pad_1200x1500_um 10 6000 12740)
+      (pin Rect[T]Pad_1200x1500_um 11 4500 12740)
+      (pin Rect[T]Pad_1200x1500_um 12 3000 12740)
+      (pin Rect[T]Pad_1200x1500_um 13 1500 12740)
+      (pin Rect[T]Pad_1200x1500_um 14 0 12740)
+      (pin Rect[T]Pad_1500x1200_um 15 -900 4350)
+      (pin Rect[T]Pad_1500x1200_um 16 -900 2700)
+      (pin Rect[T]Pad_1200x800_um 17 -600 6000)
+      (pin Rect[T]Pad_1200x800_um 18 -600 6965)
+      (pin Rect[T]Pad_1200x800_um 19 -600 7930)
+      (pin Rect[T]Pad_1200x800_um 20 -600 8895)
+      (pin Rect[T]Pad_1200x800_um 21 -600 9860)
+      (pin Rect[T]Pad_1200x800_um 22 -600 10825)
+    )
+    (padstack Oval[A]Pad_1727.2x2032_um
+      (shape (path F.Cu 1727.2  0 -152.4  0 152.4))
+      (shape (path In1.Cu 1727.2  0 -152.4  0 152.4))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_398.78x599.44_um
+      (shape (rect F.Cu -199.39 -299.72 199.39 299.72))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_508x762_um
+      (shape (rect F.Cu -254 -381 254 381))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_797.56x797.56_um
+      (shape (rect F.Cu -398.78 -398.78 398.78 398.78))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x800_um
+      (shape (rect F.Cu -600 -400 600 400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x1500_um
+      (shape (rect F.Cu -600 -750 600 750))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1200_um
+      (shape (rect F.Cu -750 -600 750 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net +2.5V
+      (pins U3-5 C1-1 C5-2 C6-2 R3-2 U2-8)
+    )
+    (net GND
+      (pins D1-2 D2-2 P1-3 U3-2 C1-2 C2-1 C3-1 C4-1 C5-1 C6-1 U2-7)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 R3-1 U2-10)
+    )
+    (net +5V
+      (pins P1-4 U3-1 U3-3 C3-2)
+    )
+    (net "Net-(C4-Pad2)"
+      (pins U3-4 C4-2)
+    )
+    (net "Net-(D1-Pad1)"
+      (pins D1-1 R1-2)
+    )
+    (net "Net-(D2-Pad1)"
+      (pins D2-1 R2-2)
+    )
+    (net UART_TX
+      (pins P1-1 U2-13)
+    )
+    (net UART_RX
+      (pins P1-2 U2-14)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins R1-1 U2-1)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 U2-4)
+    )
+    (net "Net-(U2-Pad11)"
+      (pins U2-11 U2-12)
+    )
+    (class kicad_default "" +2.5V +5V GND "Net-(C2-Pad2)" "Net-(C4-Pad2)"
+      "Net-(D1-Pad1)" "Net-(D2-Pad1)" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(U2-Pad11)"
+      UART_RX UART_TX
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 254)
+        (clearance 150.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name zhonx3_bt)(type KiCad)(uri ${KIPRJMOD}/kicad_lib.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-23 BZR 4804)-product   date = ven. 12 déc. 2014 20:38:03 CET
+
+BeginCmp
+TimeStamp = /547F632A;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SMD-0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F5E24;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SMD-0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F68E9;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SMD-0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F62F0;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = SMD_Packages:SMD-0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F8220;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SMD-0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F8278;
+Reference = C6;
+ValeurCmp = 10nF;
+IdModule  = SMD_Packages:SMD-0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F5B12;
+Reference = D1;
+ValeurCmp = orange_Connecte;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F5B95;
+Reference = D2;
+ValeurCmp = rouge_RadioMarche;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F655D;
+Reference = P1;
+ValeurCmp = CONN_01X04;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F591E;
+Reference = R1;
+ValeurCmp = 360;
+IdModule  = SMD_Packages:SMD-0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F59C7;
+Reference = R2;
+ValeurCmp = 360;
+IdModule  = SMD_Packages:SMD-0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F5EBA;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SMD_Packages:SMD-0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F4932;
+Reference = U2;
+ValeurCmp = SPBT2632C2A;
+IdModule  = zhonx3_bt:SPBT2632C2A;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F61F5;
+Reference = U3;
+ValeurCmp = LP2992;
+IdModule  = SMD_Packages:SOT-23-5;
+EndCmp
+
+EndListe
