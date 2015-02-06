@@ -1,4 +1,4 @@
-update=ven. 23 janv. 2015 22:09:02 CET
+update=ven. 30 janv. 2015 23:59:58 CET
 version=1
 last_client=kicad
 [general]
@@ -74,4 +74,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/zhonx/Documents/Kicad_ZHONX/Librairies_Zhonx/Librairies_Zhonx
+LibName31=/home/pacabot/Documents/zhonx3-kicad/Librairies_Zhonx/Librairies_Zhonx
