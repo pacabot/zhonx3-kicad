@@ -1,4 +1,4 @@
-update=ven. 30 janv. 2015 23:59:58 CET
+update=sam. 28 févr. 2015 18:28:56 CET
 version=1
 last_client=kicad
 [general]
@@ -42,7 +42,7 @@ LibName10=dip_sockets
 LibName11=C:/Users/ZHONX/Desktop/Robotique_2013/Kicad_Zhonx/Librairies_Zhonx/Librairies_Zhonx
 [eeschema]
 version=1
-LibDir=
+LibDir=../Librairies_Zhonx/kicad_lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -74,4 +74,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/pacabot/Documents/zhonx3-kicad/Librairies_Zhonx/Librairies_Zhonx
+LibName31=Librairies_Zhonx

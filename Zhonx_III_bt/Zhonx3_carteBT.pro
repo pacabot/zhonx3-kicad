@@ -1,4 +1,4 @@
-update=ven. 06 févr. 2015 23:45:45 CET
+update=sam. 28 févr. 2015 18:26:02 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -41,7 +41,7 @@ RptLab=1
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../Librairies_Zhonx/kicad_lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -73,4 +73,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/zhonx/Documents/zhonx3-kicad/Librairies_Zhonx/kicad_lib/Librairies_Zhonx
+LibName31=Librairies_Zhonx
