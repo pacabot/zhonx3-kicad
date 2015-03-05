@@ -1,4 +1,4 @@
-update=sam. 28 févr. 2015 18:22:25 CET
+update=dim. 22 févr. 2015 10:57:18 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=C:/Users/ZHONX/Desktop/Robotique_2013/Kicad_Zhonx/Librairies_Zhonx/Librairies_Zhonx
 [eeschema]
 version=1
-LibDir=../Librairies_Zhonx/kicad_lib;../Librairies_Zhonx/kicad_lib.pretty
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -80,4 +80,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=Librairies_Zhonx
+LibName31=/home/zhonx/Documents/zhonx3-kicad/Librairies_Zhonx/kicad_lib/Librairies_Zhonx

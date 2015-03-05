@@ -902,13 +902,13 @@ Text GLabel 13850 2000 2    50   Input ~ 0
 R_ENC_A
 Text GLabel 13850 2100 2    50   Input ~ 0
 R_ENC_B
-Text GLabel 4000 9350 2    50   Output ~ 0
+Text GLabel 4050 8850 2    50   Output ~ 0
 R_ENC_B
-Text GLabel 3000 9350 0    50   Output ~ 0
+Text GLabel 2950 8850 0    50   Output ~ 0
 R_ENC_A
-Text GLabel 3000 6750 0    50   Output ~ 0
+Text GLabel 2950 6250 0    50   Output ~ 0
 L_ENC_B
-Text GLabel 4000 6750 2    50   Output ~ 0
+Text GLabel 4050 6250 2    50   Output ~ 0
 L_ENC_A
 Text GLabel 800  8600 3    50   Input ~ 0
 FL
@@ -3687,4 +3687,56 @@ Text Notes 5150 3400 0    60   ~ 0
 Amperemeter
 Text GLabel 10250 3800 0    50   Input ~ 0
 I_BAT
+$Comp
+L R R41
+U 1 1 54F22A8D
+P 3000 9100
+F 0 "R41" V 3080 9100 40  0000 C CNN
+F 1 "4,7K" V 3007 9101 40  0000 C CNN
+F 2 "" V 2930 9100 30  0000 C CNN
+F 3 "" H 3000 9100 30  0000 C CNN
+	1    3000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R43
+U 1 1 54F22B36
+P 4000 9100
+F 0 "R43" V 4080 9100 40  0000 C CNN
+F 1 "4,7K" V 4007 9101 40  0000 C CNN
+F 2 "" V 3930 9100 30  0000 C CNN
+F 3 "" H 4000 9100 30  0000 C CNN
+	1    4000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R42
+U 1 1 54F23207
+P 4000 6500
+F 0 "R42" V 4080 6500 40  0000 C CNN
+F 1 "4,7K" V 4007 6501 40  0000 C CNN
+F 2 "" V 3930 6500 30  0000 C CNN
+F 3 "" H 4000 6500 30  0000 C CNN
+	1    4000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R40
+U 1 1 54F2322A
+P 3000 6500
+F 0 "R40" V 3080 6500 40  0000 C CNN
+F 1 "4,7K" V 3007 6501 40  0000 C CNN
+F 2 "" V 2930 6500 30  0000 C CNN
+F 3 "" H 3000 6500 30  0000 C CNN
+	1    3000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6250 4050 6250
+Wire Wire Line
+	3000 6250 2950 6250
+Wire Wire Line
+	3000 8850 2950 8850
+Wire Wire Line
+	4000 8850 4050 8850
 $EndSCHEMATC
