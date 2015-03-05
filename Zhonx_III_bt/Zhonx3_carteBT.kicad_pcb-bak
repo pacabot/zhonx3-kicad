@@ -569,7 +569,7 @@
   (gr_line (start 137.8585 89.408) (end 137.8585 88.0745) (angle 90) (layer Eco2.User) (width 0.15))
   (gr_line (start 130.7465 89.408) (end 137.8585 89.408) (angle 90) (layer Eco2.User) (width 0.15))
   (gr_line (start 150.429109 108.103754) (end 139.135779 108.103754) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 150.429109 86.767754) (end 139.135779 86.767754) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 150.429109 86.767754) (end 139.135779 86.767754) (layer Edge.Cuts) (width 0.1) (tstamp 54D53C9E))
   (gr_line (start 152.258009 98.156917) (end 152.226209 98.239917) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 152.439809 92.190917) (end 152.441109 92.279917) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 152.441109 92.279917) (end 152.441109 97.124917) (layer Edge.Cuts) (width 0.1))

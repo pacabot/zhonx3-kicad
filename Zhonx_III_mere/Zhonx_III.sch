@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Librairies_Zhonx
 LIBS:Zhonx_III-cache
 EELAYER 25 0
 EELAYER END
