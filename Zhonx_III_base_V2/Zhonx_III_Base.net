@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/zhonx/Documents/zhonx3-kicad/Zhonx_III_base_V2/Zhonx_III_Base.sch)
-    (date "lun. 23 févr. 2015 11:58:23 CET")
+    (date "jeu. 12 mars 2015 23:38:24 CET")
     (tool "Eeschema (2014-11-26 BZR 4805)-product"))
   (components
     (comp (ref U101)
@@ -24,7 +24,7 @@
       (tstamp 53FC7231))
     (comp (ref D101)
       (value LED)
-      (footprint LEDs:LED-0805)
+      (footprint ZHONX:LED_HMSx-C120)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 53FC723B))
@@ -210,13 +210,13 @@
       (tstamp 54E9D6B4))
     (comp (ref D103)
       (value LED)
-      (footprint LEDs:LED-0805)
+      (footprint ZHONX:LED_HMSx-C120)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 54E9EAA7))
     (comp (ref D104)
       (value LED)
-      (footprint LEDs:LED-0805)
+      (footprint ZHONX:LED_HMSx-C120)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 54E9EC6C))
@@ -239,7 +239,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54E9FFAE))
     (comp (ref USB101)
-      (value USB-MICRO_AB)
+      (value USB-MINI_AB)
       (footprint ZHONX:USB_MINI_AB)
       (libsource (lib Librairies_Zhonx) (part USB-MICRO_AB))
       (sheetpath (names /) (tstamps /))
@@ -300,23 +300,11 @@
       (tstamp 54EAF8FD))
     (comp (ref R120)
       (value BYPASS)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Connect:GS2)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 54EB1593)))
   (libparts
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part CP)
       (aliases
         (alias CAPAPOL))
@@ -374,6 +362,18 @@
       (fields
         (field (name Reference) R)
         (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -436,6 +436,13 @@
         (pin (num 6) (name OUT) (type input))
         (pin (num 7) (name OUT) (type input))
         (pin (num 8) (name OUT) (type input))))
+    (libpart (lib Librairies_Zhonx) (part QUARTZ_CMS)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) QUARTZ_CMS))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib Librairies_Zhonx) (part STM32F102C8)
       (aliases
         (alias STM32F103CB))
@@ -501,19 +508,12 @@
         (pin (num 2) (name DM) (type input))
         (pin (num 3) (name DP) (type input))
         (pin (num 4) (name ID) (type input))
-        (pin (num 5) (name GND) (type input))))
-    (libpart (lib Librairies_Zhonx) (part QUARTZ_CMS)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) QUARTZ_CMS))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 5) (name GND) (type input)))))
   (libraries
-    (library (logical device)
-      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/local/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical Librairies_Zhonx)
       (uri /home/zhonx/Documents/zhonx3-kicad/Librairies_Zhonx/kicad_lib/Librairies_Zhonx.lib)))
   (nets

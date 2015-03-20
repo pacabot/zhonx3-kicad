@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Librairies_Zhonx
 LIBS:Zhonx_Platine-cache
 EELAYER 25 0
 EELAYER END
@@ -384,7 +383,7 @@ F 3 "" H 10250 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7800 1250 0    31   ~ 0
-3 wire SPI
+I2C
 Text GLabel 4300 3500 0    50   Output ~ 0
 NSRST
 Text GLabel 8800 2100 3    50   BiDi ~ 0

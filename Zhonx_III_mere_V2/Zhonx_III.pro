@@ -1,8 +1,6 @@
-update=sam. 28 févr. 2015 18:28:56 CET
+update=ven. 20 mars 2015 21:12:25 CET
 version=1
 last_client=kicad
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -75,3 +73,18 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Librairies_Zhonx
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
