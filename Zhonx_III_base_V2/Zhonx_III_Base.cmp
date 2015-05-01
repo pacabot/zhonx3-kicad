@@ -1,353 +1,403 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-26 BZR 4805)-product   date = jeu. 12 mars 2015 23:38:13 CET
+Cmp-Mod V01 Genere par PcbNew le mer. 29 avril 2015 18:56:08 CEST
 
 BeginCmp
-TimeStamp = /53FC7226;
+TimeStamp = 54EAE0FF
+Path = /54EAF8FD
+Reference = X101;
+ValeurCmp = 8MHz;
+IdModule  = ZHONX:Q_5x3.2;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EA0F7E
+Path = /53FC7226
 Reference = C101;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E91784;
-Reference = C102;
-ValeurCmp = 22uF;
-IdModule  = Capacitors_SMD:C_1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E94942;
+TimeStamp = 54EA0F8A
+Path = /54E94942
 Reference = C103;
 ValeurCmp = 4.7nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E949A7;
+TimeStamp = 54EA0F90
+Path = /54E949A7
 Reference = C104;
 ValeurCmp = 47nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9136A;
-Reference = C105;
-ValeurCmp = 33uF;
-IdModule  = Capacitors_SMD:C_1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E913C7;
-Reference = C106;
-ValeurCmp = 33uF;
-IdModule  = Capacitors_SMD:C_1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E9141C;
-Reference = C107;
-ValeurCmp = 33uF;
-IdModule  = Capacitors_SMD:C_1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E98345;
+TimeStamp = 54EA0FA8
+Path = /54E98345
 Reference = C108;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9830E;
+TimeStamp = 54EA0FAE
+Path = /54E9830E
 Reference = C109;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9903A;
+TimeStamp = 54EA0FB4
+Path = /54E9903A
 Reference = C110;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9812D;
+TimeStamp = 54EA0FBA
+Path = /54E9812D
 Reference = C111;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9D41D;
+TimeStamp = 54EA0FC0
+Path = /54E9D41D
 Reference = C112;
 ValeurCmp = 1uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9D64D;
+TimeStamp = 54EA0FC6
+Path = /54E9D64D
 Reference = C113;
 ValeurCmp = 4.7uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9D6B4;
+TimeStamp = 54EA0FCC
+Path = /54E9D6B4
 Reference = C114;
 ValeurCmp = 4.7uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9A4EB;
+TimeStamp = 54EA0FD2
+Path = /54E9A4EB
 Reference = C115;
 ValeurCmp = 20pF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9A67D;
+TimeStamp = 54EA0FD8
+Path = /54E9A67D
 Reference = C116;
 ValeurCmp = 20pF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9B576;
+TimeStamp = 54EA0FDE
+Path = /54E9B576
 Reference = C117;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FC723B;
-Reference = D101;
-ValeurCmp = LED;
-IdModule  = ZHONX:LED_HMSx-C120;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E90B20;
-Reference = D102;
-ValeurCmp = MBRD835L;
-IdModule  = ZHONX:DPAK_2;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E9EAA7;
-Reference = D103;
-ValeurCmp = LED;
-IdModule  = ZHONX:LED_HMSx-C120;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E9EC6C;
-Reference = D104;
-ValeurCmp = LED;
-IdModule  = ZHONX:LED_HMSx-C120;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E90A5D;
-Reference = L101;
-ValeurCmp = 6.8uH;
-IdModule  = ZHONX:WURTH_INDUCTOR_1040;
-EndCmp
-
-BeginCmp
-TimeStamp = /53FC7689;
-Reference = P100;
-ValeurCmp = CONN_BASE;
-IdModule  = ZHONX:CONN_BASE;
-EndCmp
-
-BeginCmp
-TimeStamp = /54EA55E0;
+TimeStamp = 54EA1003
+Path = /54EA55E0
 Reference = P101;
 ValeurCmp = CONN_01X03;
 IdModule  = Connect:GS3;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA6919;
+TimeStamp = 54EA1009
+Path = /54EA6919
 Reference = R101;
 ValeurCmp = 22;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FC7231;
+TimeStamp = 54EA100F
+Path = /53FC7231
 Reference = R102;
 ValeurCmp = 1K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA1A16;
+TimeStamp = 54EA1015
+Path = /54EA1A16
 Reference = R103;
 ValeurCmp = 1.5K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA12FD;
+TimeStamp = 54EA101B
+Path = /54EA12FD
 Reference = R104;
 ValeurCmp = 100K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA14BF;
+TimeStamp = 54FF1CDC
+Path = /54EA14BF
 Reference = R105;
 ValeurCmp = 22;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA1453;
+TimeStamp = 54EA1027
+Path = /54EA1453
 Reference = R106;
 ValeurCmp = 22;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA6AE6;
+TimeStamp = 54EA102D
+Path = /54EA6AE6
 Reference = R107;
 ValeurCmp = 22;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA6D43;
+TimeStamp = 54EA1033
+Path = /54EA6D43
 Reference = R108;
 ValeurCmp = 22;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9488A;
+TimeStamp = 54EA1039
+Path = /54E9488A
 Reference = R109;
 ValeurCmp = 2K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E90936;
+TimeStamp = 54EA103F
+Path = /54E90936
 Reference = R110;
 ValeurCmp = 51K 1%;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E909A1;
+TimeStamp = 54EA1045
+Path = /54E909A1
 Reference = R111;
 ValeurCmp = 8.2K 1%;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9BEC4;
+TimeStamp = 54EA104B
+Path = /54E9BEC4
 Reference = R112;
 ValeurCmp = 4.7K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9BF1C;
+TimeStamp = 54EA1051
+Path = /54E9BF1C
 Reference = R113;
 ValeurCmp = 4.7K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9ED14;
+TimeStamp = 54EA1057
+Path = /54E9ED14
 Reference = R114;
 ValeurCmp = 200;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9EE62;
+TimeStamp = 54EA105D
+Path = /54E9EE62
 Reference = R115;
 ValeurCmp = 200;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9C100;
+TimeStamp = 54EA1063
+Path = /54E9C100
 Reference = R116;
 ValeurCmp = 100;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9FFAE;
+TimeStamp = 54EA1069
+Path = /54E9FFAE
 Reference = R117;
 ValeurCmp = 100K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9A224;
+TimeStamp = 54EA106F
+Path = /54E9A224
 Reference = R118;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E9B520;
+TimeStamp = 54EA1075
+Path = /54E9B520
 Reference = R119;
 ValeurCmp = 100K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EB1593;
-Reference = R120;
-ValeurCmp = BYPASS;
-IdModule  = Connect:GS2;
-EndCmp
-
-BeginCmp
-TimeStamp = /53FC7220;
+TimeStamp = 54EA1081
+Path = /53FC7220
 Reference = U101;
 ValeurCmp = MAX1607;
 IdModule  = Power_Integrations:SO-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E90565;
-Reference = U102;
-ValeurCmp = LT1370;
-IdModule  = ZHONX:DD_PAK_7;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E9CABB;
+TimeStamp = 54EA1095
+Path = /54E9CABB
 Reference = U103;
 ValeurCmp = LP2992;
 IdModule  = ZHONX:SOT23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E97C4D;
+TimeStamp = 54EA10C9
+Path = /54E97C4D
 Reference = U104;
 ValeurCmp = STM32F102C8;
 IdModule  = Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EA0B8F;
+TimeStamp = 54EA1855
+Path = /54E90565
+Reference = U102;
+ValeurCmp = LT1370;
+IdModule  = ZHONX:DD_PAK_7;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EA208A
+Path = /54E90B20
+Reference = D102;
+ValeurCmp = MBRD835L;
+IdModule  = ZHONX:DPAK_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EA63F3
+Path = /54E90A5D
+Reference = L101;
+ValeurCmp = 6.8uH;
+IdModule  = ZHONX:WURTH_INDUCTOR_1040;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EAFC6F
+Path = /54E91784
+Reference = C102;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EAFC74
+Path = /54E9136A
+Reference = C105;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_SMD:C_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EAFC79
+Path = /54E913C7
+Reference = C106;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_SMD:C_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EAFC7E
+Path = /54E9141C
+Reference = C107;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_SMD:C_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 54EB1527
+Path = /54EB1593
+Reference = R120;
+ValeurCmp = BYPASS;
+IdModule  = Connect:GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 54FE1EEC
+Path = /54EA0B8F
 Reference = USB101;
-ValeurCmp = USB-MICRO_AB;
+ValeurCmp = USB-MINI_AB;
 IdModule  = ZHONX:USB_MINI_AB;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EAF8FD;
-Reference = X101;
-ValeurCmp = 8MHz;
-IdModule  = ZHONX:Q_5x3.2;
+TimeStamp = 55021FB4
+Path = /53FC723B
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = ZHONX:LED_HMSx-C120;
+EndCmp
+
+BeginCmp
+TimeStamp = 55021FF5
+Path = /54E9EAA7
+Reference = D103;
+ValeurCmp = LED;
+IdModule  = ZHONX:LED_HMSx-C120;
+EndCmp
+
+BeginCmp
+TimeStamp = 55021FC8
+Path = /54E9EC6C
+Reference = D104;
+ValeurCmp = LED;
+IdModule  = ZHONX:LED_HMSx-C120;
+EndCmp
+
+BeginCmp
+TimeStamp = 55021FD2
+Path = /53FC7689
+Reference = P100;
+ValeurCmp = CONN_BASE;
+IdModule  = ZHONX:CONN_BASE;
 EndCmp
 
 EndListe
