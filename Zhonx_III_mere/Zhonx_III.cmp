@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 18/08/2014 10:52:19
+Cmp-Mod V01 Created by PcbNew   date = sam. 10 déc. 2016 18:53:18 CET
 
 BeginCmp
 TimeStamp = 53A34B79
@@ -12,7 +12,7 @@ BeginCmp
 TimeStamp = 537F49D3
 Path = /5362B217
 Reference = U2;
-ValeurCmp = A3918_L;
+ValeurCmp = A3918;
 IdModule  = QFN16_Termal_Pad;
 EndCmp
 
@@ -20,7 +20,7 @@ BeginCmp
 TimeStamp = 537F49F0
 Path = /5362B1FB
 Reference = U3;
-ValeurCmp = A3918_R;
+ValeurCmp = A3918;
 IdModule  = QFN16_Termal_Pad;
 EndCmp
 
@@ -73,7 +73,7 @@ IdModule  = Connecteur_Moteur_Zhonx;
 EndCmp
 
 BeginCmp
-TimeStamp = 51895002
+TimeStamp = 53F63F8B
 Path = /51891F86
 Reference = PL1;
 ValeurCmp = PLATINE_ZHONX_III;
@@ -108,7 +108,7 @@ BeginCmp
 TimeStamp = 5188FB3E
 Path = /518528E5
 Reference = X1;
-ValeurCmp = QUARTZ_8Z;
+ValeurCmp = 16MHz;
 IdModule  = Quartz_8Z-16MHz;
 EndCmp
 
@@ -148,7 +148,7 @@ BeginCmp
 TimeStamp = 51895047
 Path = /518528B8
 Reference = D11;
-ValeurCmp = Bleue_Charge;
+ValeurCmp = Bleue;
 IdModule  = LED-0603;
 EndCmp
 
@@ -180,7 +180,7 @@ BeginCmp
 TimeStamp = 51868D48
 Path = /5185293E
 Reference = D12;
-ValeurCmp = Blanc_5V;
+ValeurCmp = Blanc;
 IdModule  = LED-0603;
 EndCmp
 
@@ -489,7 +489,7 @@ IdModule  = SM0402_ZHONX;
 EndCmp
 
 BeginCmp
-TimeStamp = 53810C5A
+TimeStamp = 53F6395D
 Path = /51852945
 Reference = C41;
 ValeurCmp = 18pF;
@@ -556,7 +556,7 @@ BeginCmp
 TimeStamp = 5186904F
 Path = /5185289E
 Reference = R14;
-ValeurCmp = 10K;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -660,7 +660,7 @@ BeginCmp
 TimeStamp = 51868F68
 Path = /518528B7
 Reference = R1;
-ValeurCmp = ?;
+ValeurCmp = 3,3K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -716,7 +716,7 @@ BeginCmp
 TimeStamp = 51868F1B
 Path = /518528A7
 Reference = R13;
-ValeurCmp = 10K;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -756,7 +756,7 @@ BeginCmp
 TimeStamp = 51868EAD
 Path = /518528E2
 Reference = R2;
-ValeurCmp = 100K;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -828,12 +828,12 @@ BeginCmp
 TimeStamp = 5319A426
 Path = /5310A85B
 Reference = C19;
-ValeurCmp = 0.1uF;
+ValeurCmp = 0,1uF;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
 BeginCmp
-TimeStamp = 5319A432
+TimeStamp = 53F645CC
 Path = /5310A886
 Reference = C17;
 ValeurCmp = 4,7uF;
@@ -916,7 +916,7 @@ BeginCmp
 TimeStamp = 531C67F5
 Path = /531C664A
 Reference = C44;
-ValeurCmp = 0,1nF;
+ValeurCmp = 0,1uF;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -932,7 +932,7 @@ BeginCmp
 TimeStamp = 536EAD0A
 Path = /5362B509
 Reference = R27;
-ValeurCmp = 0,2 603;
+ValeurCmp = 0,2;
 IdModule  = SM0603_ZHONX;
 EndCmp
 
@@ -940,7 +940,7 @@ BeginCmp
 TimeStamp = 536EAD14
 Path = /536E9544
 Reference = R28;
-ValeurCmp = 0,2 603;
+ValeurCmp = 0,2;
 IdModule  = SM0603_ZHONX;
 EndCmp
 
@@ -948,7 +948,7 @@ BeginCmp
 TimeStamp = 536EAD20
 Path = /5362EADF
 Reference = R7;
-ValeurCmp = 10K;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -956,7 +956,7 @@ BeginCmp
 TimeStamp = 5387A1D5
 Path = /536BF78E
 Reference = R29;
-ValeurCmp = 820;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -980,7 +980,7 @@ BeginCmp
 TimeStamp = 518692D8
 Path = /5185288F
 Reference = R34;
-ValeurCmp = 12 0,3W;
+ValeurCmp = 12;
 IdModule  = SM0603_ZHONX;
 EndCmp
 
@@ -988,7 +988,7 @@ BeginCmp
 TimeStamp = 518692CA
 Path = /518528B1
 Reference = R35;
-ValeurCmp = 2.8 0,2W;
+ValeurCmp = 2,8;
 IdModule  = SM0603_ZHONX;
 EndCmp
 
@@ -996,7 +996,7 @@ BeginCmp
 TimeStamp = 51869292
 Path = /5185288E
 Reference = R39;
-ValeurCmp = 12 0,3W;
+ValeurCmp = 12;
 IdModule  = SM0603_ZHONX;
 EndCmp
 
@@ -1028,7 +1028,7 @@ BeginCmp
 TimeStamp = 539B4DF8
 Path = /539B5099
 Reference = R30;
-ValeurCmp = 100K;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -1036,7 +1036,7 @@ BeginCmp
 TimeStamp = 53A3548C
 Path = /53A3569F
 Reference = R31;
-ValeurCmp = 2K;
+ValeurCmp = 4,7K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -1044,7 +1044,7 @@ BeginCmp
 TimeStamp = 53A35498
 Path = /53A356A5
 Reference = R32;
-ValeurCmp = 2K;
+ValeurCmp = 4,7K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
@@ -1052,7 +1052,7 @@ BeginCmp
 TimeStamp = 53A354A4
 Path = /53A36475
 Reference = R33;
-ValeurCmp = 10K;
+ValeurCmp = 47K;
 IdModule  = SM0402_ZHONX;
 EndCmp
 
