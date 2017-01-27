@@ -1,4 +1,4 @@
-update=ven. 27 janv. 2017 22:29:40 CET
+update=ven. 27 janv. 2017 23:11:00 CET
 version=1
 last_client=kicad
 [general]
@@ -43,3 +43,28 @@ LibName11=C:/Users/ZHONX/Desktop/Robotique_2013/Kicad_Zhonx/Librairies_Zhonx/Lib
 [eeschema]
 version=1
 LibDir=../Librairies_Zhonx/main_lib/main_lib;../Librairies_Zhonx/zhonx_lib/zhonx_lib
+[eeschema/libraries]
+LibName1=DVB_Amplifiers-Comparators
+LibName2=DVB_Button
+LibName3=DVB_Capacitors
+LibName4=DVB_Clock
+LibName5=DVB_Communication
+LibName6=DVB_Connectors
+LibName7=DVB_CurrentSense
+LibName8=DVB_Diodes
+LibName9=DVB_Display
+LibName10=DVB_Driver-Interface
+LibName11=DVB_Filters
+LibName12=DVB_Inductors
+LibName13=DVB_Led
+LibName14=DVB_Logic
+LibName15=DVB_Memories
+LibName16=DVB_Microcontrollers
+LibName17=DVB_Power
+LibName18=DVB_PowerManagment
+LibName19=DVB_Resistors
+LibName20=DVB_Sensors-Transducers
+LibName21=DVB_Transistors
+LibName22=stm32
+LibName23=Librairies_STM32
+LibName24=Librairies_Zhonx

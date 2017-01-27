@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=C:/Users/ZHONX/Desktop/Robotique_2013/Kicad_Zhonx/Librairies_Zhonx/Librairies_Zhonx
 [eeschema]
 version=1
-LibDir=../Librairies_Zhonx/kicad_lib;../Librairies_Zhonx/kicad_lib.pretty
+LibDir=../Librairies_Zhonx/zhonx_lib;../Librairies_Zhonx/zhonx_lib/zhonx_lib.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
