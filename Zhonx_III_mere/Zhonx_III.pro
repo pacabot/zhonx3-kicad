@@ -1,4 +1,4 @@
-update=sam. 10 déc. 2016 14:56:22 CET
+update=ven. 27 janv. 2017 22:29:40 CET
 version=1
 last_client=kicad
 [general]
@@ -42,34 +42,4 @@ LibName10=dip_sockets
 LibName11=C:/Users/ZHONX/Desktop/Robotique_2013/Kicad_Zhonx/Librairies_Zhonx/Librairies_Zhonx
 [eeschema]
 version=1
-LibDir=../Librairies_Zhonx/kicad_lib
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
+LibDir=../Librairies_Zhonx/main_lib/main_lib;../Librairies_Zhonx/zhonx_lib/zhonx_lib
