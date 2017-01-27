@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name zhonx_lib)(type KiCad)(uri "/home/zhonx/Documents/Pacabot/ZHONX III/Electronique/zhonx3-kicad/Librairies_Zhonx/zhonx_lib/zhonx_mod/zhonx_lib.pretty")(options "")(descr ""))
+)

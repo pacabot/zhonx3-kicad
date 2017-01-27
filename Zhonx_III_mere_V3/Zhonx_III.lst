@@ -1,0 +1,138 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 18/08/2014 11:00:57
+#Cmp ( ordre = Référence )
+| ADXR1      ADXRS620    ; ADXRS620    
+| C1         2,2uF       ; SM0402_ZHONX
+| C2         4,7uF       ; SM0402_ZHONX
+| C3         0,1uF       ; SM0402_ZHONX
+| C4         0,1uF       ; SM0402_ZHONX
+| C5         0,1uF       ; SM0402_ZHONX
+| C6         0,1uF       ; SM0402_ZHONX
+| C7         0,1uF       ; SM0402_ZHONX
+| C8         0,1uF       ; SM0402_ZHONX
+| C9         2,2uF       ; SM0402_ZHONX
+| C10        0,1uF       ; SM0402_ZHONX
+| C11        150nF       ; SM0402_ZHONX
+| C12        0,1uF       ; SM0402_ZHONX
+| C13        0,1uF       ; SM0402_ZHONX
+| C14        0,1uF       ; SM0402_ZHONX
+| C15        0,1uF       ; SM0402_ZHONX
+| C16        0,1uF       ; SM0402_ZHONX
+| C17        4,7uF       ; SM0402_ZHONX
+| C18        4,7uF       ; SM0402_ZHONX
+| C19        0.1uF       ; SM0402_ZHONX
+| C20        4,7uF       ; SM0402_ZHONX
+| C21        0,1uF       ; SM0402_ZHONX
+| C22        0,1uF       ; SM0402_ZHONX
+| C23        0,1uF       ; SM0402_ZHONX
+| C24        0,1uF       ; SM0402_ZHONX
+| C25        0,1uF       ; SM0402_ZHONX
+| C26        1uF         ; SM0402_ZHONX
+| C27        2,2uF       ; SM0402_ZHONX
+| C28        10nF        ; SM0402_ZHONX
+| C29        2,2uF       ; SM0402_ZHONX
+| C30        0,1uF       ; SM0402_ZHONX
+| C31        4,7uF       ; SM0402_ZHONX
+| C32        0,1uF       ; SM0402_ZHONX
+| C33        0,1uF       ; SM0402_ZHONX
+| C34        1uF         ; SM0402_ZHONX
+| C35        0,1uF       ; SM0402_ZHONX
+| C36        22nF        ; SM0402_ZHONX
+| C37        22nF        ; SM0402_ZHONX
+| C38        22nF        ; SM0402_ZHONX
+| C39        0,1uF       ; SM0402_ZHONX
+| C40        18pF        ; SM0402_ZHONX
+| C41        18pF        ; SM0402_ZHONX
+| C42        10uF        ; SM0603_Capa 
+| C43        0,1uF       ; SM0402_ZHONX
+| C44        0,1uF       ; SM0402_ZHONX
+| C45        0,1uF       ; SM0402_ZHONX
+| C100       100uF       ; SM1210_Capa 
+| C101       100uF       ; SM1206_Capa 
+| C103       100uF       ; SM1206_Capa 
+| C104       100uF       ; SM1206_Capa 
+| D1         4148        ; SM0603      
+| D11        Bleue_Charge; LED-0603    
+| D12        Blanc_5V    ; LED-0603    
+| IR1        L_Front     ; IR_LF       
+| IR2        L_Diag      ; IR_LD       
+| IR3        R_Diag      ; IR_RD       
+| IR4        R_Front     ; IR_RF       
+| K1         L_Motor     ; Connecteur_Moteur_Zhonx
+| K2         R_Motor     ; Connecteur_Moteur_Zhonx
+| K3         USART       ; Conn_Serial_Zhonx
+| L2         10uH        ; SM0603      
+| P1         JTAG        ; Zhonx_III_JTAG
+| PL1        PLATINE_ZHONX_III; Platine_Zhonx_III
+| Q1         FDV301N     ; SOT23GDS    
+| Q2         FDV301N     ; SOT23GDS    
+| R1         ?           ; SM0402_ZHONX
+| R2         100K        ; SM0402_ZHONX
+| R3         90K         ; SM0402_ZHONX
+| R4         1M          ; SM0402_ZHONX
+| R5         1M          ; SM0402_ZHONX
+| R6         100K        ; SM0402_ZHONX
+| R7         10K         ; SM0402_ZHONX
+| R8         47K         ; SM0402_ZHONX
+| R9         100K        ; SM0402_ZHONX
+| R10        47K         ; SM0402_ZHONX
+| R11        10K         ; SM0402_ZHONX
+| R12        100K        ; SM0402_ZHONX
+| R13        10K         ; SM0402_ZHONX
+| R14        10K         ; SM0402_ZHONX
+| R15        20K         ; SM0402_ZHONX
+| R16        10K         ; SM0402_ZHONX
+| R17        47K         ; SM0402_ZHONX
+| R18        47K         ; SM0402_ZHONX
+| R19        820         ; SM0402_ZHONX
+| R20        47K         ; SM0402_ZHONX
+| R21        47K         ; SM0402_ZHONX
+| R22        47K         ; SM0402_ZHONX
+| R23        47K         ; SM0402_ZHONX
+| R24        47K         ; SM0402_ZHONX
+| R25        47K         ; SM0402_ZHONX
+| R26        100K        ; SM0402_ZHONX
+| R27        0,2 603     ; SM0603_ZHONX
+| R28        0,2 603     ; SM0603_ZHONX
+| R29        820         ; SM0402_ZHONX
+| R30        100K        ; SM0402_ZHONX
+| R31        2K          ; SM0402_ZHONX
+| R32        2K          ; SM0402_ZHONX
+| R33        10K         ; SM0402_ZHONX
+| R34        12 0,3W     ; SM0603_ZHONX
+| R35        2.8 0,2W    ; SM0603_ZHONX
+| R38        100         ; SM0402_ZHONX
+| R39        12 0,3W     ; SM0603_ZHONX
+| R44        1,8K        ; SM0402_ZHONX
+| R45        1,8K        ; SM0402_ZHONX
+| R48        1,8K        ; SM0402_ZHONX
+| R49        1,8K        ; SM0402_ZHONX
+| R50        100K        ; SM0402_ZHONX
+| R51        510         ; SM0402_ZHONX
+| R52        510         ; SM0402_ZHONX
+| R58        220         ; SM0402_ZHONX
+| R64        33          ; SM0402_ZHONX
+| R67        220         ; SM0402_ZHONX
+| SCH1       BAT60       ; SOD323      
+| SP1        KSSG13J12   ; Buzzer_KSSG13J12
+| U1         MCP73213    ; MCP73213    
+| U2         A3918_L     ; QFN16_Termal_Pad
+| U3         A3918_R     ; QFN16_Termal_Pad
+| U4         LTC2955CTS8-2; LTC2955     
+| U5         SIB911DK    ; SC75-6L     
+| U6         SI1551DL    ; SC70        
+| U7         LM2940      ; SOT223      
+| U8         MCP1700     ; SOT23       
+| U9         MCP1700     ; SOT23       
+| U10        BSL214N     ; SOT23_6     
+| U11        BSL214N     ; SOT23_6     
+| U12        24LC64T     ; SOT23-5     
+| U14        STM32F405RGT6; TQFP_64     
+| U16        Line_1      ; QRE1113GR   
+| U17        Line_2      ; QRE1113GR   
+| U18        Line_3      ; QRE1113GR   
+| U19        Line_4      ; QRE1113GR   
+| U20        Line_5      ; QRE1113GR   
+| X1         QUARTZ_8Z   ; Quartz_8Z-16MHz
+#End Cmp
+
+#End List
